@@ -20,3 +20,11 @@ The AQI dataset contains the following files:
 - Scikit-learn
 - Matplotlib / Seaborn
 - Jupyter Notebook
+
+## Note on Dataset
+Due to GitHub's file size limit, the following files have not been uploaded:
+- city_hour.csv (62MB)
+- station_hour.csv (209MB)
+
+You can download the complete dataset from Kaggle:
+https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india
