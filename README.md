@@ -11,7 +11,7 @@ An interactive 4-page dashboard exploring the dataset from every angle — all p
 ### Page 1 — Air Quality Overview
 High-level AQI distribution, city pollution rankings, and the scale of severe air quality events across India.
 
-![Air Quality Overview](screenshots/dashboard_page1.png)
+![Air Quality Overview](dashboard/page1_air_quality_overview.png)
 
 **Key insights:**
 - **Average AQI: 166.46** across 26 cities and 24,850 records (2015–2020)
@@ -24,7 +24,7 @@ High-level AQI distribution, city pollution rankings, and the scale of severe ai
 ### Page 2 — Seasonal & Temporal Trends
 Monthly and seasonal AQI patterns, capturing the recurring winter pollution cycle from 2015 to 2020.
 
-![Seasonal & Temporal Trends](screenshots/dashboard_page2.png)
+![Seasonal & Temporal Trends](dashboard/page2_seasonal_trends.png)
 
 **Key insights:**
 - **Winter (avg 225)** and **Autumn (avg 220)** are the most polluted seasons; **Monsoon (avg 115)** is the cleanest
@@ -37,7 +37,7 @@ Monthly and seasonal AQI patterns, capturing the recurring winter pollution cycl
 ### Page 3 — Pollutant Relationships & Model Insights
 Correlation analysis, PM2.5 vs AQI scatter, Random Forest feature importance, and Power BI Key Influencers.
 
-![Pollutant Relationships & Model Insights](screenshots/dashboard_page3.png)
+![Pollutant Relationships & Model Insights](dashboard/page3_pollutant_insights.png)
 
 **Key insights:**
 - **PM2.5 (0.66)** and **PM10 (0.80)** have the highest correlation with AQI
@@ -50,7 +50,7 @@ Correlation analysis, PM2.5 vs AQI scatter, Random Forest feature importance, an
 ### Page 4 — Model Performance & Evaluation
 Side-by-side evaluation of Linear Regression vs Random Forest on the held-out test set.
 
-![Model Performance & Evaluation](screenshots/dashboard_page4.png)
+![Model Performance & Evaluation](dashboard/page4_model_evaluation.png)
 
 | Metric | Linear Regression | Random Forest |
 |--------|:----------------:|:-------------:|
@@ -83,7 +83,7 @@ Random Forest reduces RMSE by ~31% and MAE by ~33% vs Linear Regression by captu
 ```
 ├── AQI.ipynb              # Main notebook (EDA + ML pipeline)
 ├── AQI_Report.docx        # Full project report
-├── screenshots/
+├── dashboard/
 │   ├── dashboard_page1.png   # Air Quality Overview
 │   ├── dashboard_page2.png   # Seasonal & Temporal Trends
 │   ├── dashboard_page3.png   # Pollutant Relationships & Model Insights
