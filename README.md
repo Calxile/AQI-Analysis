@@ -1,4 +1,4 @@
-# 🌫️ AQI Prediction — Indian Cities
+# AQI Prediction — Indian Cities
 
 A machine learning and data analytics project to analyze and predict the **Air Quality Index (AQI)** across Indian cities using city-level daily pollutant readings. Built with Python and visualized with an interactive Power BI dashboard.
 
